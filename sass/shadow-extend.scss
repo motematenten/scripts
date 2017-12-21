@@ -1,0 +1,8 @@
+%button {
+  display: inline-block;
+}
+
+.button-tag {
+  @extend %button;
+  background-color: #fff;
+}

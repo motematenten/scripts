@@ -1,0 +1,19 @@
+          %tag {
+            border-radius: 3px;
+            display: inline-block;
+            font-size: rem(12px);
+            font-weight: 400;
+            margin: 0 2px;
+            padding: 2px 6px;
+            text-transform: lowercase;
+          }
+          .required-tag {
+            @extend %tag;
+            color: #fff;
+            background-color: #aaa;
+          }
+          .optional-tag {
+            @extend %tag;
+            color: #abc;
+            background-color: #der;
+          }

@@ -1,0 +1,8 @@
+button {
+  display: inline-block;
+}
+
+.button {
+  @extend button;
+  background-color: #fff;
+}
