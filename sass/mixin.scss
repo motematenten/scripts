@@ -1,0 +1,8 @@
+@mixin button {
+  display: inline-block;
+}
+
+.button {
+  @include button;
+}
+
